@@ -1,0 +1,38 @@
+
+body{
+    background-color: #FFB178;
+}
+.calculator-theme{
+    box-shadow: -1px 0px 8px 3px white;
+}
+.output{
+    background-color:#243441;
+}
+.previous-operand-1{
+    color:#6B7984;
+}
+.result-output{
+    background-color: #243441;
+    padding: 30px;
+    outline: none;
+    color:white;
+    font-size: 30px;
+}
+.calculator-theme{
+    background-color:#243441;
+}
+.common-button{
+    background-color: #243443;
+    box-shadow:0px 4px 4px 0px #1D2D39;
+}
+.number{
+    color:#6B7984;
+}
+.yellow-button{
+    color: #ED802E;
+
+}
+.equal-button{
+    background-color: #ED802E;
+    color:white;
+}

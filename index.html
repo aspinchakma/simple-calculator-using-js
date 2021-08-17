@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- taiwind css link  -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- customize css link  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main>
+        <section>
+
+            <div class="calculator-theme w-1/4 mx-auto mt-16 p-8 rounded-2xl">
+                <!-- <input id="input-field" type="text" class="w-full result-output"> -->
+                <div class="output bg-red-500 w-full h-20 mb-4">
+                    <div class="previous-operand h-2/4">
+                        <h1 id="before-input" class="text-right text-4xl font-bold previous-operand-1"></h1>
+                    </div>
+                    <div class="current-operand ">
+                        <h2 id="input-field" class="text-right text-2xl font-bold text-white"></h2>
+
+                    </div>
+                </div>
+                <div class="grid sm:grid-col-1 grid-cols-4 gap-4">
+                    <button id="clear-button"
+                        class="common-button rounded bg-blue-200 py-4 text-2xl yellow-button">AC</button>
+                    <button class="common-button rounded bg-blue-200 py-4 text-2xl yellow-button">&#215;</button>
+                    <button id="modulas-button"
+                        class="common-button rounded bg-blue-200 py-4 text-2xl yellow-button">%</button>
+                    <button id="division-button"
+                        class="common-button rounded bg-blue-200 py-4 text-2xl yellow-button">&#247;</button>
+                    <button class="common-button rounded bg-blue-200 py-4 text-2xl number">7</button>
+                    <button class="common-button rounded bg-blue-200 py-4 text-2xl number">8</button>
+                    <button class="common-button rounded bg-blue-200 py-4 text-2xl number">9</button>
+                    <button id="multiplication-button"
+                        class="common-button rounded bg-blue-200 py-4 text-2xl yellow-button">&#215;</button>
+                    <button class="common-button rounded bg-blue-200 py-4 text-2xl number">4</button>
+                    <button class="common-button rounded bg-blue-200 py-4 text-2xl number">5</button>
+                    <button class="common-button rounded bg-blue-200 py-4 text-2xl number">6</button>
+                    <button id="minus-button"
+                        class="common-button rounded bg-blue-200 py-4 text-2xl yellow-button">-</button>
+                    <button class="common-button rounded bg-blue-200 py-4 text-2xl number">1</button>
+                    <button class="common-button rounded bg-blue-200 py-4 text-2xl number">2</button>
+                    <button class="common-button rounded bg-blue-200 py-4 text-2xl number">3</button>
+                    <button id="plus-button"
+                        class="common-button rounded bg-blue-200 py-4 text-2xl yellow-button">+</button>
+                    <button class="common-button rounded bg-blue-200 py-4 text-2xl number">0</button>
+                    <button class="common-button rounded bg-blue-200 py-4 text-2xl number">.</button>
+                    <button id="equal-button"
+                        class="common-button rounded bg-blue-200 col-span-2 py-4 text-2xl equal-button">=</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
